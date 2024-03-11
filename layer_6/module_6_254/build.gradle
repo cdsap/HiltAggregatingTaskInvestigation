@@ -1,0 +1,28 @@
+plugins {
+  id("awesome.androidlib.plugin")
+}
+
+dependencies {
+    
+    implementation(project(":layer_5:module_5_219"))
+    implementation(project(":layer_5:module_5_211"))
+    implementation(project(":layer_5:module_5_205"))
+    implementation(project(":layer_5:module_5_220"))
+    implementation(project(":layer_5:module_5_208"))
+    implementation(project(":layer_5:module_5_238"))
+    implementation(project(":layer_5:module_5_235"))
+    implementation(project(":layer_5:module_5_224"))
+    implementation(project(":layer_5:module_5_202"))
+    implementation(project(":layer_5:module_5_234"))
+    implementation(project(":layer_5:module_5_229"))
+    implementation(project(":layer_5:module_5_239"))
+    implementation(project(":layer_5:module_5_232"))
+    implementation(project(":layer_5:module_5_240"))
+    implementation(project(":layer_5:module_5_230"))
+    implementation(project(":layer_5:module_5_226"))
+    implementation(project(":layer_5:module_5_228"))
+    implementation(project(":layer_5:module_5_231"))
+    implementation(project(":layer_5:module_5_236"))
+    implementation(project(":layer_5:module_5_223"))
+}
+        

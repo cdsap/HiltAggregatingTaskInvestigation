@@ -1,0 +1,21 @@
+plugins {
+  id("awesome.androidlib.plugin")
+}
+
+dependencies {
+    
+    implementation(project(":layer_2:module_2_84"))
+    implementation(project(":layer_2:module_2_85"))
+    implementation(project(":layer_2:module_2_106"))
+    implementation(project(":layer_2:module_2_105"))
+    implementation(project(":layer_2:module_2_116"))
+    implementation(project(":layer_2:module_2_104"))
+    implementation(project(":layer_2:module_2_115"))
+    implementation(project(":layer_2:module_2_110"))
+    implementation(project(":layer_2:module_2_114"))
+    implementation(project(":layer_2:module_2_108"))
+    implementation(project(":layer_2:module_2_100"))
+    implementation(project(":layer_2:module_2_107"))
+    implementation(project(":layer_2:module_2_112"))
+}
+        

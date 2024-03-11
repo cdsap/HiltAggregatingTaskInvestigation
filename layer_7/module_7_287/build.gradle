@@ -1,0 +1,24 @@
+plugins {
+  id("awesome.androidlib.plugin")
+}
+
+dependencies {
+    
+    implementation(project(":layer_6:module_6_259"))
+    implementation(project(":layer_6:module_6_248"))
+    implementation(project(":layer_6:module_6_245"))
+    implementation(project(":layer_6:module_6_255"))
+    implementation(project(":layer_6:module_6_269"))
+    implementation(project(":layer_6:module_6_271"))
+    implementation(project(":layer_6:module_6_261"))
+    implementation(project(":layer_6:module_6_244"))
+    implementation(project(":layer_6:module_6_246"))
+    implementation(project(":layer_6:module_6_247"))
+    implementation(project(":layer_6:module_6_253"))
+    implementation(project(":layer_6:module_6_273"))
+    implementation(project(":layer_6:module_6_268"))
+    implementation(project(":layer_6:module_6_265"))
+    implementation(project(":layer_6:module_6_251"))
+    implementation(project(":layer_6:module_6_278"))
+}
+        

@@ -1,0 +1,23 @@
+plugins {
+  id("awesome.androidlib.plugin")
+}
+
+dependencies {
+    
+    implementation(project(":layer_3:module_3_149"))
+    implementation(project(":layer_3:module_3_137"))
+    implementation(project(":layer_3:module_3_154"))
+    implementation(project(":layer_3:module_3_146"))
+    implementation(project(":layer_3:module_3_145"))
+    implementation(project(":layer_3:module_3_139"))
+    implementation(project(":layer_3:module_3_138"))
+    implementation(project(":layer_3:module_3_151"))
+    implementation(project(":layer_3:module_3_158"))
+    implementation(project(":layer_3:module_3_127"))
+    implementation(project(":layer_3:module_3_140"))
+    implementation(project(":layer_3:module_3_144"))
+    implementation(project(":layer_3:module_3_123"))
+    implementation(project(":layer_3:module_3_135"))
+    implementation(project(":layer_3:module_3_148"))
+}
+        
