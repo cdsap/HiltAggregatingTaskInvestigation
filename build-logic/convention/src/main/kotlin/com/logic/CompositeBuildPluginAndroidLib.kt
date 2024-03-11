@@ -18,6 +18,9 @@
                         }
 
                      val name = target.name.replace(":","_")
+                          extensions.configure<dagger.hilt.android.plugin.HiltExtension> {
+                          enableAggregatingTask = true
+                      }
                      extensions.configure<com.android.build.gradle.LibraryExtension>  {
                         namespace = "com.example.mylibrary.$name"
                         compileSdk = 33
