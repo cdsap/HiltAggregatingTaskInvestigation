@@ -14,6 +14,7 @@
                             apply("com.android.library")
                             apply("org.jetbrains.kotlin.android")
                             apply("kotlin-kapt")
+                            apply("com.google.dagger.hilt.android")
                         }
 
                      val name = target.name.replace(":","_")
@@ -47,7 +48,8 @@
                     }
 
                     dependencies {
-
+                        add("implementation","com.google.dagger:hilt-android:2.51")
+                        add("kapt","com.google.dagger:hilt-android-compiler:2.51")
                         add("implementation","androidx.core:core-ktx:1.9.0")
                         add("implementation","androidx.appcompat:appcompat:1.6.1")
                         add("implementation","com.google.android.material:material:1.8.0")
